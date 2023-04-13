@@ -42,3 +42,21 @@ section#iPhone {
     width: 311px;
     background:url('../imagens/frame-iphone.png') no-repeat
 }
+section#Social-medias {
+    text-align: right;
+}
+
+section#Social-medias img {
+    width: 50px ;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#Social-medias img:hover {
+    border: 3px solid rgba(245, 222, 179, 0.709);
+    transform: translate(-3px, 3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s;
+}
